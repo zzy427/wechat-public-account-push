@@ -23,17 +23,17 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o00aj6pCoLLamNUjEBB6TgPAuE08',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'cVEEZCo9OUr30-H1zalXrJm87aOdvm70W1YRRBY9M88',
+      useTemplateId: '3F-6ZVvpr9RoqVp4UPaXKEFtuqyOYqSVLojgB7Dt6OY',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '06-26',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '生日', name: '我', year: '2002', date: '04-27',
+          type: 'birthday2', name: '我', year: '2002', date: '04-27',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '宝宝', year: '2004', date: '06-26',
+          type: 'birthday1', name: '宝宝', year: '2004', date: '06-26',
         },
         {
           type: '节日', name: '相识纪念日', year: '2023', date: '05-27',
@@ -55,7 +55,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o00aj6pCoLLamNUjEBB6TgPAuE08',
+      id: '3F-6ZVvpr9RoqVp4UPaXKEFtuqyOYqSVLojgB7Dt6OY',
     }
   ],
 
