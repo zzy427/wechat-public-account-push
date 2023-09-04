@@ -24,16 +24,14 @@ const USER_CONFIG = {
       id: 'o00aj6pVhIqbvzUPw-hMKevv3iWs',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '25NUmH0LNmkTHpvo6K5kswYVgIVtpW0Jhz9z22-hLKM',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '06-26',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: 'birthday2', name: '我', year: '2002', date: '04-27',
+          type: '生日', name: '我', year: '2002', date: '04-27',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: 'birthday1', name: '宝宝', year: '2004', date: '06-26',
+          type: '生日', name: '宝宝', year: '2004', date: '06-26',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
